@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+
+    android:id="@+id/call_detail"
+
+
+    tools:context="com.example.mohammadumar.clasprojecttasktabbed.Detailofcalls">
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/pakage_Type"
+        android:text="CALL PACKAGE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Pakage Name"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_Name"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Price"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_Price"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Volum"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_Volum"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="5"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Duration"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_Duration"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="6"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="Activation Code"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_ActiCode"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:weightSum="6"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="De Activation Code"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/pakage_DeActiCode"
+            android:text=""
+            android:gravity="end"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/activate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate Package"/>
+</LinearLayout>

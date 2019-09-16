@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/best"
+    tools:context="com.example.mohammadumar.clasprojecttasktabbed.MainActivity">
+
+   <LinearLayout
+       android:layout_marginRight="10dp"
+       android:weightSum="26"
+       android:layout_gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:background="@drawable/textviewstyling"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:lines="2"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Packages For Telenor"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:background="@drawable/btnstyling"
+                android:id="@+id/telenor"
+                android:textAllCaps="false"
+                android:text="Telenor"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textstylingforufone"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:lines="2"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="Packages For Ufone"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#ffffff"
+            android:background="@drawable/btnstyling"
+            android:id="@+id/ufone"
+            android:textAllCaps="false"
+            android:text="Ufone"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           android:weightSum="6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginTop="5dp"
+               android:background="@drawable/textstylingfor"
+               android:fontFamily="cursive"
+               android:gravity="center"
+               android:textAlignment="center"
+               android:lines="2"
+               android:textSize="25sp"
+               android:textColor="#ffffff"
+               android:text="Packages For Jazz"
+               android:layout_weight="4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center"
+               android:textSize="20sp"
+               android:textStyle="italic"
+               android:textColor="#ffffff"
+               android:background="@drawable/btnstyling"
+               android:id="@+id/jazz"
+               android:textAllCaps="false"
+               android:text="Jazz"
+               android:layout_weight="2"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           android:weightSum="6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_marginTop="5dp"
+               android:background="@drawable/textstylingforzong"
+               android:fontFamily="cursive"
+               android:gravity="center"
+               android:textAlignment="center"
+               android:lines="2"
+               android:textSize="25sp"
+               android:textColor="#ffffff"
+               android:text="Packages For Zong"
+               android:layout_weight="4"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+
+           <Button
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center"
+               android:textSize="20sp"
+               android:textStyle="italic"
+               android:textColor="#ffffff"
+               android:background="@drawable/btnstyling"
+               android:id="@+id/zong"
+               android:textAllCaps="false"
+               android:text="Zong"
+               android:layout_weight="2"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+        <!--<ImageButton
+            android:background="@drawable/te"
+            android:id="@+id/telenor"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ufo"
+            android:id="@+id/ufone"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ja"
+            android:id="@+id/jazz"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+        <ImageButton
+            android:layout_marginTop="8dp"
+            android:background="@drawable/zo"
+            android:id="@+id/zong"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />-->
+ <!--  <Button
+       android:textSize="20sp"
+       android:textAllCaps="false"
+       android:text="Telenor"
+       android:id="@+id/telenor"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Ufone"
+        android:id="@+id/ufone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Jazz"
+        android:id="@+id/jazz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Zong"
+        android:id="@+id/zong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+    </LinearLayout>
+
